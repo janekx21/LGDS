@@ -1,0 +1,63 @@
+
+		//glEnable(GL_BLEND);
+		//glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+		/*
+		glEnable(GL_TEXTURE_2D);
+		glColor3f(0.0, 1.0, 1.0);
+		glClear(GL_COLOR_BUFFER_BIT);//|GL_DEPTH_BUFFER_BIT);
+		glColor3f(1.0, 1.0, 1.0);
+
+
+		glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
+		glRotatef(1,0,0,1);
+		
+		glBindTexture(GL_TEXTURE_2D, mainTexture);
+		glPushMatrix();
+		glBegin(GL_QUADS);
+
+		glTexCoord2f(1,0);
+		glVertex2f(-.5,-.5);
+
+		glTexCoord2f(1,1);
+		glVertex2f(-0.5,0.5);
+
+		glTexCoord2f(0,1);
+		glVertex2f(0.5,0.5);
+		
+		glTexCoord2f(0,0);
+		glVertex2f(0.5,-0.5);
+
+		glEnd();
+
+		glPopMatrix();
+		glDisable(GL_TEXTURE_2D);
+		
+
+		glPushMatrix();
+
+		glRotatef(45,0,0,1);
+		//glScalef(.5,.5,.5);
+
+		glBindTexture(GL_TEXTURE_2D, mainTexture);
+
+		glBegin(GL_QUADS);
+
+
+		glTexCoord2f(1,0);
+		glVertex2f(-.5,-.5);
+
+		glTexCoord2f(1,1);
+		glVertex2f(-0.5,0.5);
+
+		glTexCoord2f(0,1);
+		glVertex2f(0.5,0.5);
+		
+		glTexCoord2f(0,0);
+		glVertex2f(0.5,-0.5);
+
+		glEnd();
+		glPopMatrix();
+		*/
+
+
+		//SOIL_free_image_data((unsigned char *)&tex);
