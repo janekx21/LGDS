@@ -16,7 +16,7 @@ LIN_LINKER_FLAGS= \
 
 
 BIN = bin
-OUTPUT = devorio
+OUTPUT = excecute
 
 
 all:
@@ -29,10 +29,10 @@ all:
 	endif
 
 windows:
-	$(cc) -o $(BIN)/$(OUTPUT).exe lib/libSOIL.a src/devorio.c  -Iinclude -Llib -Wl,--subsystem,windows -Dmain=SDL_main $(WIN_LINKER_FLAGS)
+	$(cc) -o $(BIN)/$(OUTPUT).exe lib/libSOIL.a src/excecute.c  -Iinclude -Llib -Wl,--subsystem,windows -Dmain=SDL_main $(WIN_LINKER_FLAGS)
 
 linux:
-	$(cc) -o $(BIN)/$(OUTPUT) lib/libSOIL.a src/devorio.c  -Iinclude -Llib $(LIN_LINKER_FLAGS)
+	$(cc) -o $(BIN)/$(OUTPUT) lib/libSOIL.a src/excecute.c  -Iinclude -Llib $(LIN_LINKER_FLAGS)
 
 run:
 	ifeq ($(OS),Windows_NT)
